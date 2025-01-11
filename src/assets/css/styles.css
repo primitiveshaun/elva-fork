@@ -275,6 +275,12 @@ body {
     flex-grow: 1;
 }
 
+.container {
+    max-width: var(--container-width);
+    padding: var(--container-padding);
+    margin: var(--container-margin);
+}
+
 /* skip to content */
 
 .skip-link {

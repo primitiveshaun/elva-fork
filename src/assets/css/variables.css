@@ -2,13 +2,25 @@
     /* branding */
     --black: #000;
 	--white: #fff;
+
+
+    --um-sand: #E4D6BF;
+    --um-grey: #585656;
+    --um-pink: #EACADF;
+    --um-cream: #E6E4E1;
+
     --nord0: #2e3440;
+    --nord0: var(--um-grey);
+
     --nord1: #3b4252;
     --nord2: #434c5e;
     --nord3: #4c566a;
     --nord4: #d8dee9;
     --nord5: #e5e9f0;
-    --nord6: #eceff4;
+    --nord6: #E4D6BF;
+    --nord6: var(--um-sand);
+
+
     --nord7: #8fbcbb;
     --nord8: #88c0d0;
     --nord9: #81a1c1;
@@ -18,6 +30,8 @@
     --nord13: #efc571;
     --nord14: #a3be8c;
     --nord15: #b48ead;
+
+
 
     /* colours */
     --background: var(--nord6);
@@ -58,6 +72,7 @@
     --tracking-s: -0.055ch;
     --gutter: var(--space-s-m);
     --border-radius: var(--step-0);
+
     /* @link https://utopia.fyi/space/calculator?c=320,18,1.2,1500,22,1.333,6,1,800&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l|m-3xl|s-2xl&g=s,l,xl,12 */
     --space-3xs: clamp(0.31rem, calc(0.30rem + 0.08vw), 0.38rem);
     --space-2xs: clamp(0.56rem, calc(0.53rem + 0.17vw), 0.69rem);
@@ -81,6 +96,11 @@
     --space-s-l: clamp(1.13rem, calc(0.68rem + 2.20vw), 2.75rem);
     --space-m-3xl: clamp(1.69rem, calc(-0.09rem + 8.90vw), 8.25rem);
     --space-s-2xl: clamp(1.13rem, calc(-0.06rem + 5.93vw), 5.50rem);
+
+   /* container */
+   --container-width: 1200px;
+   --container-padding: var(--space-s);
+   --container-margin: 0 auto;
 
     /* animation */
     --transition-base: 250ms ease;
